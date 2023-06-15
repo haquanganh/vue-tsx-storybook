@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #212121a1;
+}
+
+.button {
+  padding: 1rem 2rem;
+  width: max-content;
+  border-radius: 0.5rem;
+  outline: 1px solid #ccc;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &--primary {
+    background-color: #241985e6;
+    color: #fff;
+  }
+
+  &--secondary {
+    background-color: #ffffff;
+    color: #0e0d0d;
+  }
+
+  &--small {
+    font-size: 14px;
+  }
+
+  &--medium {
+    font-size: 16px;
+  }
+}
